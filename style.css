@@ -5,6 +5,13 @@ body{
   background-color: #F66C5E;
 }
 
+/* CONTAINER */
+
+.container .ep{
+  width: 70%;
+}
+
+
 /* BOXES */
 
 .box{
