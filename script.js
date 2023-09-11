@@ -7,7 +7,7 @@ for(let i = 1; i<=100; i++){
   boxes.appendChild(box);
   
 
-  if (i % 15 == 0){
+  if (i % 3 == 0 && i % 5==0){
     box.append("FizzBuzz");
     console.log("FizzBuzz");
     box.classList.add('bg-info-subtle');
